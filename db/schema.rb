@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 20170126000055) do
     t.integer  "age"
     t.integer  "total_winnings"
     t.integer  "jockey_id"
+    t.integer  "breed_id"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
   end
